@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 400px;
+    border: 2px solid black ;
+}
+.cell {
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    width: 6.25%;
+    height: 6.25%;
+    color: red;
+}
